@@ -1,0 +1,28 @@
+{
+  "name": "converter",
+  "version": "0.1.0",
+  "description": "convertor de kilogramos a libras",
+  "main": "dis/src/tolibs.js",
+  "scripts": {
+    "build": "babel src/toLibs.js -d dist",
+    "test" : "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulsantaria/conversor.git"
+  },
+  "keywords": [
+    "conversor",
+    "kilos",
+    "to",
+    "libras"
+  ],
+  "author": "paul santaria <psantaria@hotmail.com> (https://twitter.com/paulsantaria)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0"
+  }
+}
